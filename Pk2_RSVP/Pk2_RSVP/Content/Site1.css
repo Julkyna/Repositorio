@@ -1,0 +1,49 @@
+﻿body{
+			 
+}
+
+.Imagen{width: 100px; height: 100px;}
+
+.Parrafos{
+font-size:16px;
+color:MediumVioletRed;
+font-style:italic;
+text-align:justify;
+line-height:1.5em;  
+}
+
+.m1 {
+margin-top: 15em;
+}
+
+.boton{ 
+  color:MediumVioletRed;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+
+.boton1{ 
+  color:MediumVioletRed;
+  padding: 5px 5px;
+  text-decoration: none;
+  background-color:purple;
+} 
+
+table {
+   width: 40%;
+   border: 3px solid MediumVioletRed;
+}
+
+td, tr {
+   width: 25%;
+   text-align: left;
+}
+
+td, tr {
+   background-color:#F5F5DC;
+}
+
+.color {
+    color:MediumVioletRed;
+  
+}

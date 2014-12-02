@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Site1.css" />
+    <title>Index</title>
+</head>
+<body>
+    <center>
+        <table border="1">
+            <tr>
+                <td>
+                    <div align="center">
+                        <p class="Parrafos">@ViewBag.Greting ¡Hola Amigo!</p>
+                    </div>
+                    <br />
+                    <div align="center">
+                        <img class="Imagen" src="Imagenes/fiesta.jpg" />
+                        <br />
+                    </div>
+                    <div align="center">
+                        <p class="Parrafos" align="center">
+                            Amiga(o):<br />
+                            "Hoy no hay que darle más años a la vida, sino más vida a los años"<br />
+                            Gracias por formar parte de mi vida y hoy estar conmigo,<br />
+                            Será un honor compartir contigo está celebracióncon motivo de mi Cumpleaños.<br />
+                            Esperó contar con tu presencia,<br />
+                            ¡No faltes!.
+                        </p>
+                        <br />
+                    </div>
+                    <div align="right">
+                        <a class="boton">
+                            @Html.ActionLink("Revisar Ahora", "RsvpForm");
+                        </a>
+                        <br />
+                        <br />
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
