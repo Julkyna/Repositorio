@@ -1,0 +1,38 @@
+﻿@model Trabajadores.Models.Tabla
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Datos de Trabajador</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/Style.css" />
+</head>
+<body>
+    <div>
+        <header>
+            <br>
+             Televisa S.A. de C.V.<br>
+        </header>
+        <section>
+            <br>
+            <img src="@Url.Content(Model.Photo)" />
+            <p>Número de Trabajador: @Model.NumTrabajador</p>
+            <p>Nombre: @Model.Nombre</p>
+            <p>Puesto: @Model.Puesto</p>
+            <p>Salario: @Model.Salario</p>
+            <p>Antiguedad: @Model.Antiguedad</p>
+
+            <a href="http://localhost:35979/"><input type="button" value="Back" /></a>
+        </section>
+        <footer>
+            Elaboro: <br>
+            Julieta Nájera Neyra<br>
+        </footer>
+     </div>
+</body>
+</html>

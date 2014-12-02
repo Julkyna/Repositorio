@@ -1,0 +1,39 @@
+﻿@model Trabajadores.Models.Tabla
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/Style.css" />
+</head>
+<body>
+    <div>
+        <header>
+        <img class="Imagen" src="Content/Pictures/Televisa.png" width='80' height='80' />Televisa S.A. de C.V.
+        </header>
+        <section>
+            <br>
+            <span>
+                @using (Html.BeginForm())
+                {
+                    <h1>Ingrese su Número de Trabajador:</h1>
+
+                    <p>@Html.TextBoxFor(numtra => numtra.NumTrabajador)</p>
+
+                    <input type="submit" value="Ingresar"/>
+                }
+            </span>
+
+        </section>
+        <footer>
+            Elaboro: <br>
+            Julieta Nájera Neyra<br>
+        </footer>
+    </div>
+</body>
+</html>
